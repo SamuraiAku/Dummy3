@@ -1,0 +1,13 @@
+name = "Dummy3"
+uuid = "a15f9a99-31c9-401d-87e4-3fe0ccb07a31"
+authors = ["Simon Avery <savery@ieee.org> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
